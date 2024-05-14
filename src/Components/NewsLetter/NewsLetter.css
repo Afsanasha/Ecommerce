@@ -1,0 +1,30 @@
+.Newsletter{
+    background-image: linear-gradient(rgb(218, 149, 239), white);
+    height: 60vh;
+    width: 60vw;
+    padding: 0px 140px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    margin-bottom: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.Newsletter h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.Newsletter input{
+    width: 300px;
+    padding: 13px;
+    border-radius: 20px;
+    border: none;
+    outline: 1px solid gray;
+}
+.Newsletter button{
+    padding: 13px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin-left: -50px;
+}

@@ -1,0 +1,41 @@
+.shopcategorybanner{
+   display: block;
+   width: 80%;
+   margin: 30px auto;
+    
+}
+.ShopCategory-Indexsort{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 140px;
+}
+.shopCategory-sort{
+    background-color: rgb(240, 238, 238);
+    outline: 1px solid gray;
+    padding: 10px;
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.shopCategory-sort:hover{
+    background-color: rgb(217, 213, 213);
+}
+.Category{
+    width: 80vw;
+    margin: 0px 140px;
+    padding: auto;;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin-top: 30px;
+}
+.loadbtn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    outline:  1px solid gray;
+}

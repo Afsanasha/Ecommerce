@@ -1,0 +1,40 @@
+.MainContainer{
+    background-image: linear-gradient(rgb(218, 149, 239), white);
+    height: 60vh;
+    width: 60vw;
+    padding: 0px 140px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 100px;
+
+}
+.Left{
+    margin-top: 50px;
+    flex: 1;
+}
+.Left h1{
+    margin: 0;
+    font-size: 50px;
+    
+}
+.Left button{
+    border: none;
+    color: white;
+    background-color: orangered;
+    width: 200px;
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.Right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    
+}
+.Right img{
+    height: 60vh;
+}

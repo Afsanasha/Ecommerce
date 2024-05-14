@@ -1,0 +1,57 @@
+.Hero-Container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(rgb(218, 149, 239), white);
+}
+.Hero-Left{
+    flex: 1;
+    margin-left: 100px;
+}
+.Hero-Left h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+}
+.Hero-Left p{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+.handimage{
+    display: flex;
+    align-items: center;
+    
+}
+.handimage img{
+    height: 100px;
+    width: 100px;
+}
+.Imagehero{
+    height: 100vh;
+    width: 25vw;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+.mainbtn{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+    
+}
+.latestbtn{
+    width: 200px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    border: none;
+
+    
+}
+.arrowimage{
+    position: absolute;
+    margin-left: 160px;
+}

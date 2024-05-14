@@ -1,0 +1,40 @@
+.Loginsignup{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 185, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.main-container{
+    margin: 30px;
+    height: 500px;
+    width: 450px;
+    gap: 20px;
+    padding: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.main-container input{
+    padding: 15px;
+}
+.main-container h1{
+    margin: 0;
+}
+.main-container button{
+    padding: 15px;
+    font-size: 15px;
+    background-color: orangered;
+    color: white;
+    border: none;
+
+}
+.main-container p{
+    margin: 0;
+}
+.main-container span{
+    color: orangered;
+}

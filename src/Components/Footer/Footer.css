@@ -1,0 +1,27 @@
+.Footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logosection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logosection p{
+    font-size: 40px;
+    font-weight: bold;
+}
+.details ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+.socialicon img{
+    margin-right: 30px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
